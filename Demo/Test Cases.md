@@ -93,7 +93,7 @@ ping: unknown host www.google.com <br />
 
 
 __________________________________________________________________________________________________________________
-###Test Case 4: unblocking all incoming & outging traffic###
+##Test Case 4: unblocking all incoming & outging traffic##
 ###All traffic was successfully unblocked###
 
 vagrant@Xubuntu-Vagrant:~/Desktop/Test_Final$ sudo echo "1" >> /proc/blockAll <br />
