@@ -22,14 +22,13 @@
 #include <linux/ctype.h>
 
 #define _KERNEL_
+
+// a macro that defines the maximum number of messages;
+// that is, the maximum number of IP addresses to filter
 #define MAX_MSG 50
 
 //initialize to unblock
 bool block = false;
-
-//max number of incoming/outgoing addresses to filter.
-//const in c means "read-only"
-//int MAX_MSG = 50;
 
 //incoming 
 int in_index = 0; //current index for incoming traffic to block. (in_index < MAX_MSG)
@@ -71,12 +70,12 @@ unsigned int hook_funcIN(void *priv, struct sk_buff *skb, const struct nf_hook_s
 		char source[16];
 
 		sock_buff = skb;		
-		// grad network header using accessor
+		// grab network header using accessor
 		ip_header = (struct iphdr *) skb_network_header(sock_buff);
 		// get the source address
 		src_ip = (unsigned int) ip_header -> saddr;
 	
-		// convert the source and destination IP addresses to character buffers
+		// convert the source IP addresses to character buffers
 		snprintf(source, 16, "%pI4", &src_ip);
 		
 		int i;
@@ -92,13 +91,13 @@ unsigned int hook_funcIN(void *priv, struct sk_buff *skb, const struct nf_hook_s
 		
 		return NF_ACCEPT;	
 			
-	} //end else if
+	}
 
 	else {
 		printk(KERN_INFO "No incoming traffic to block\n");
 		
 		return NF_ACCEPT;
-	} //end else
+	}
 }
 
 //This hook function is registered on NF_IP_LOCAL_OUT
