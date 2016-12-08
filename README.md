@@ -53,3 +53,8 @@ Example: sudo echo "128.119.8.148" >> /proc/outgoing
 ####Looking at the log file: </br>
 `dmesg` or `dmesg | tail`
 
+####Test and Output: </br>
+See `Test Cases.md` in the Demo folder 
+
+## Acknowledgement
+We are inspired by the examples in http://www.paulkiddie.com/2009/10/creating-a-simple-hello-world-netfilter-module/ and http://www.paulkiddie.com/2009/11/creating-a-netfilter-kernel-module-which-filters-udp-packets/.
