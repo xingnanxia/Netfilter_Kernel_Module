@@ -1,4 +1,5 @@
-In order to test this kernel module, please `download the Demo folder` and enter the following into the command line:
+In order to test this kernel module, please `download the Demo folder`, cd to the Demo folder and 
+enter the following into the command line:
 
 ####Building the Module: </br>
 make
