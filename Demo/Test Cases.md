@@ -7,10 +7,15 @@ ________________________________________________________________________________
 ###Incoming traffic with source IP address 128.119.8.148 were successfully blocked###
 
 vagrant@Xubuntu-Vagrant:~/Desktop/Test_Final$ sudo echo "129.59.15.60" >> /proc/incoming
+
 vagrant@Xubuntu-Vagrant:~/Desktop/Test_Final$ sudo echo "128.119.8.148" >> /proc/incoming
+
 vagrant@Xubuntu-Vagrant:~/Desktop/Test_Final$ ping www.google.com
+
 PING www.google.com (173.194.66.105) 56(84) bytes of data.
+
 64 bytes from qo-in-f105.1e100.net (173.194.66.105): icmp_seq=1 ttl=63 time=15.3 ms
+
 64 bytes from qo-in-f105.1e100.net (173.194.66.105): icmp_seq=2 ttl=63 time=16.7 ms
 64 bytes from qo-in-f105.1e100.net (173.194.66.105): icmp_seq=3 ttl=63 time=24.9 ms
 c64 bytes from qo-in-f105.1e100.net (173.194.66.105): icmp_seq=4 ttl=63 time=17.9 ms
