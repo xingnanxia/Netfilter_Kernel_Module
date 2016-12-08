@@ -83,7 +83,7 @@ Dec  8 05:42:58 Xubuntu-Vagrant kernel: [ 9316.441763] outgoing packet to dest a
 
 
 __________________________________________________________________________________________________________________
-###Test Case 3: blocking all incoming & outging traffic###
+##Test Case 3: blocking all incoming & outging traffic##
 ###All traffic was successfully blocked###
 
 vagrant@Xubuntu-Vagrant:~/Desktop/Test_Final$ sudo echo "1" >> /proc/blockAll <br />
