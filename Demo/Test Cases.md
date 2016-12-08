@@ -17,20 +17,28 @@ PING www.google.com (173.194.66.105) 56(84) bytes of data.
 64 bytes from qo-in-f105.1e100.net (173.194.66.105): icmp_seq=1 ttl=63 time=15.3 ms
 
 64 bytes from qo-in-f105.1e100.net (173.194.66.105): icmp_seq=2 ttl=63 time=16.7 ms
+
 64 bytes from qo-in-f105.1e100.net (173.194.66.105): icmp_seq=3 ttl=63 time=24.9 ms
+
 c64 bytes from qo-in-f105.1e100.net (173.194.66.105): icmp_seq=4 ttl=63 time=17.9 ms
+
 64 bytes from qo-in-f105.1e100.net (173.194.66.105): icmp_seq=5 ttl=63 time=18.3 ms
+
 ^C
 --- www.google.com ping statistics ---
 5 packets transmitted, 5 received, 0% packet loss, time 4005ms
+
 rtt min/avg/max/mdev = 15.366/18.673/24.989/3.325 ms
+
 vagrant@Xubuntu-Vagrant:~/Desktop/Test_Final$ ping 129.59.15.60
+
 PING 129.59.15.60 (129.59.15.60) 56(84) bytes of data.
 ^C
 --- 129.59.15.60 ping statistics ---
 5 packets transmitted, 0 received, 100% packet loss, time 4000ms  
 
 vagrant@Xubuntu-Vagrant:~/Desktop/Test_Final$ ping 128.119.8.148
+
 PING 128.119.8.148 (128.119.8.148) 56(84) bytes of data.
 ^C
 --- 128.119.8.148 ping statistics ---
@@ -39,15 +47,25 @@ PING 128.119.8.148 (128.119.8.148) 56(84) bytes of data.
 
 ### Contents of the log file ###
 vagrant@Xubuntu-Vagrant:~/Desktop/Test_Final$ sudo tail /var/log/syslog
+
 Dec  8 05:41:17 Xubuntu-Vagrant kernel: [ 9216.734011] packet accpted
+
 Dec  8 05:41:38 Xubuntu-Vagrant kernel: [ 9216.734024] incoming packet from source addr: 129.59.15.60 dropped
+
 Dec  8 05:41:38 Xubuntu-Vagrant kernel: [ 9237.717174] No outgoing traffic to block.
+
 Dec  8 05:41:38 Xubuntu-Vagrant kernel: [ 9237.775125] packet accpted
+
 Dec  8 05:41:39 Xubuntu-Vagrant kernel: [ 9237.775177] incoming packet from source addr: 128.119.8.148 dropped
+
 Dec  8 05:41:39 Xubuntu-Vagrant kernel: [ 9238.724143] No outgoing traffic to block.
+
 Dec  8 05:41:39 Xubuntu-Vagrant kernel: [ 9238.779040] packet accpted
+
 Dec  8 05:41:40 Xubuntu-Vagrant kernel: [ 9238.779092] incoming packet from source addr: 128.119.8.148 dropped
+
 Dec  8 05:41:40 Xubuntu-Vagrant kernel: [ 9239.731869] No outgoing traffic to block.
+
 Dec  8 05:41:40 Xubuntu-Vagrant kernel: [ 9239.786971] packet accpted
 
 
