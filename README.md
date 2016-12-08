@@ -4,7 +4,7 @@ All the previous intermediate files are stored in another repository: https://gi
 # Netfilter Kernel Module
 
 ## Introduction
-This is a Linux Netfilter Kernel Module developed by Xingnan Xia (https://github.com/xingnanxia) and Ardis Choi (https://github.com/choiy5). It uses three /proc files for users to communicate with the kernel: 
+This is a Linux Netfilter Kernel Module developed by Xingnan Xia (https://github.com/xingnanxia) and Ardis Choi (https://github.com/choiy5). It uses three /proc files for users to communicate with the kernel: </br>
   `/proc/blockAll` enables the user to block all incoming and outgoing traffic. </br>
   `/proc/incoming` enables the user to enter the source address for the incoming traffic to block. </br>
   `/proc/outgoing` enables the user to enter the destination address for the incoming traffic to block. </br>
