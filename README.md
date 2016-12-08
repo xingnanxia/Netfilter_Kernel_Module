@@ -31,13 +31,21 @@ to unblock, type the above command again.) </br>
 
 ####Module Usage #2: Blocking all Incoming Traffic with specified source IP addresses</br>
 `sudo echo "some IP address" >> /proc/incoming`</br>
-(up to `50` IP addresses can be added to the list of source IP addresses to filter) </br>
-(unblocking a source IP address is not enabled)
+up to `50` IP addresses can be added to the list of source IP addresses to filter </br>
+address need to be entered into the proc file one by one </br>
+address need to be in IP format, human-readable address such as 'www.google.com' is not supported. </br>
+unblocking a source IP address is not enabled </br>
+
+Example: sudo echo "128.119.8.148" >> /proc/incoming
 
 ####Module Usage #3: Blocking all Outgoing Traffic with specified destination IP addresses</br>
 `sudo echo "some IP address" >> /proc/outgoing`</br>
-(up to `50` IP addresses can be added to the list of destination IP addresses to filter) </br>
-(unblocking a destination IP address is not enabled)
+up to `50` IP addresses can be added to the list of destination IP addresses to filter </br>
+address need to be entered into the proc file one by one </br>
+address need to be in IP format, human-readable address such as 'www.google.com' is not supported. </br>
+unblocking a destination IP address is not enabled </br>
+
+Example: sudo echo "128.119.8.148" >> /proc/outgoing
 
 ####Injecting the Module from the Kernel: </br>
 `sudo rmmod Final03`
