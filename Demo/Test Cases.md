@@ -74,9 +74,9 @@ ________________________________________________________________________________
 ###Test Case 2: blocking all outging traffic with a particular destination IP address###
 ###Incoming traffic with destination IP address 128.119.8.148 were successfully blocked###
 
-vagrant@Xubuntu-Vagrant:~/Desktop/Test_Final$ sudo echo "128.119.8.148" >> /proc/outgoing
-vagrant@Xubuntu-Vagrant:~/Desktop/Test_Final$ ping 128.119.8.148
-PING 128.119.8.148 (128.119.8.148) 56(84) bytes of data.
+vagrant@Xubuntu-Vagrant:~/Desktop/Test_Final$ sudo echo "128.119.8.148" >> /proc/outgoing <br />
+vagrant@Xubuntu-Vagrant:~/Desktop/Test_Final$ ping 128.119.8.148 <br />
+PING 128.119.8.148 (128.119.8.148) 56(84) bytes of data. <br />
 ping: sendmsg: Operation not permitted
 ping: sendmsg: Operation not permitted
 ping: sendmsg: Operation not permitted
