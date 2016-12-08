@@ -1,6 +1,6 @@
 In order to test this kernel module, please `download the Demo folder` and enter the following into the command line:
 
-###Building the Module:### </br>
+###Building the Module: </br>
 make
 
 Loading the Module to the Kernel: </br>
