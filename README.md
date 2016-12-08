@@ -1,4 +1,8 @@
-In order to test this kernel module, please `download the Demo folder`, cd to the Demo folder and 
+All the previous intermediate files are stored in another repository: https://github.com/xingnanxia/ArdisNatalie_Project4.git
+
+# Netfilter Kernel Module
+
+Inorder to test this kernel module, please `download the Demo folder`, cd to the Demo folder and 
 enter the following into the command line:
 
 ####Building the Module: </br>
