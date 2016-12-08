@@ -8,7 +8,7 @@ sudo insmod Final03.ko
 
 
 Module Usage #1: Blocking & Unblocking all Incoming & Outgoing Traffic
-sudo echo "anything" >> /proc/blockAll
+sudo echo "anything" >> /proc/blockAll/n\n
 (the initial input, which has length greater than 0, will cause the module to block all incoming traffic.
 to unblock, type the above command again.)
 
