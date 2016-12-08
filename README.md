@@ -1,4 +1,4 @@
-Notes that this repository stores all the final version in the Demo folder. </br>
+Notes that this repository stores the final version in the` Demo` folder. </br>
 All the previous intermediate files are stored in another repository: https://github.com/xingnanxia/ArdisNatalie_Project4.git
 
 # Netfilter Kernel Module
