@@ -3,11 +3,11 @@ In order to test this kernel module, please `download the Demo folder` and enter
 ####Building the Module: </br>
 make
 
-Loading the Module to the Kernel: </br>
+####Loading the Module to the Kernel: </br>
 sudo insmod Final03.ko
 
 
-Module Usage #1: Blocking & Unblocking all Incoming & Outgoing Traffic </br>
+####Module Usage #1: Blocking & Unblocking all Incoming & Outgoing Traffic </br>
 sudo echo "anything" >> /proc/blockAll </br>
 (the initial input, which has length greater than 0, will cause the module to block all incoming traffic.
 to unblock, type the above command again.)
