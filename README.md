@@ -46,7 +46,7 @@ address need to be entered into the proc file one by one </br>
 address need to be in IP format, human-readable address such as 'www.google.com' is not supported. </br>
 unblocking a destination IP address is not enabled </br>
 
-Example: sudo echo "128.119.8.148" >> /proc/outgoinr
+Example: sudo echo "128.119.8.148" >> /proc/outgoing </br>
 (MAX_MSG is currently defined to 50. In line 28: #define MAX_MSG 50, you can change 50 to any positive number) </br>
 
 ####Injecting the Module from the Kernel: </br>
