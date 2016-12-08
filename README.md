@@ -1,6 +1,17 @@
+Notes that this repository stores all the final version in the Demo folder. </br>
 All the previous intermediate files are stored in another repository: https://github.com/xingnanxia/ArdisNatalie_Project4.git
 
 # Netfilter Kernel Module
+
+## Introduction
+This is a Linux Netfilter Kernel Module developed by Xingnan Xia (https://github.com/xingnanxia) and Ardis Choi (https://github.com/choiy5). It uses three /proc files for users to communicate with the kernel: 
+  `/proc/blockAll` enables the user to block all incoming and outgoing traffic. </br>
+  `/proc/incoming` enables the user to enter the source address for the incoming traffic to block. </br>
+  `/proc/outgoing` enables the user to enter the destination address for the incoming traffic to block. </br>
+ 
+This module is maded and compiled in Linux 4.4.0-21-generic and Linux 4.4.0-45-generic. 
+  
+## Usage
 
 Inorder to test this kernel module, please `download the Demo folder`, cd to the Demo folder and 
 enter the following into the command line:
@@ -30,3 +41,7 @@ to unblock, type the above command again.) </br>
 
 ####Injecting the Module from the Kernel: </br>
 `sudo rmmod Final03`
+
+####Looking at the log file: </br>
+`dmesg` or `dmesg | tail`
+
