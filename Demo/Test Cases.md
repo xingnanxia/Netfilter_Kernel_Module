@@ -76,9 +76,9 @@ Dec  8 05:41:40 Xubuntu-Vagrant kernel: [ 9238.779092] incoming packet from sour
 Dec  8 05:41:40 Xubuntu-Vagrant kernel: [ 9239.731869] No outgoing traffic to block. <br />
 Dec  8 05:41:40 Xubuntu-Vagrant kernel: [ 9239.786971] packet accpted <br />
 Dec  8 05:42:52 Xubuntu-Vagrant kernel: [ 9239.787028] incoming packet from source addr: 128.119.8.148 dropped <br />
-Dec  8 05:42:54 Xubuntu-Vagrant kernel: [ 9312.442782] outgoing packet to dest addr: 128.119.8.148 droppedoutgoing packet to dest addr: 128.119.8.148 dropped <br />
-Dec  8 05:42:56 Xubuntu-Vagrant kernel: [ 9314.441713] outgoing packet to dest addr: 128.119.8.148 droppedoutgoing packet to dest addr: 128.119.8.148 dropped <br />
-Dec  8 05:42:58 Xubuntu-Vagrant kernel: [ 9316.441763] outgoing packet to dest addr: 128.119.8.148 droppedoutgoing packet to dest addr: 128.119.8.148 dropped <br />
+Dec  8 05:42:54 Xubuntu-Vagrant kernel: [ 9312.442782] outgoing packet to dest addr: 128.119.8.148 dropped <br />
+Dec  8 05:42:56 Xubuntu-Vagrant kernel: [ 9314.441713] outgoing packet to dest addr: 128.119.8.148 dropped <br />
+Dec  8 05:42:58 Xubuntu-Vagrant kernel: [ 9316.441763] outgoing packet to dest addr: 128.119.8.148 dropped <br />
 
 
 
