@@ -48,7 +48,7 @@ Dec  8 05:41:40 Xubuntu-Vagrant kernel: [ 9239.786971] packet accpted <br />
 
 
 __________________________________________________________________________________________________________________
-###Test Case 2: blocking all outging traffic with a particular destination IP address###
+##Test Case 2: blocking all outging traffic with a particular destination IP address##
 ###Incoming traffic with destination IP address 128.119.8.148 were successfully blocked###
 
 vagrant@Xubuntu-Vagrant:~/Desktop/Test_Final$ sudo echo "128.119.8.148" >> /proc/outgoing <br />
