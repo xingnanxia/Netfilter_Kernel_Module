@@ -37,7 +37,7 @@ address need to be in IP format, human-readable address such as 'www.google.com'
 unblocking a source IP address is not enabled </br>
 
 Example: sudo echo "128.119.8.148" >> /proc/incoming </br>
-(MAX_MSG is currently defined to 50. In line 28: #define MAX_MSG 50, you can change 50 to any positive number) </br>
+(MAX_MSG is currently set to 50. In line 28: #define MAX_MSG 50, you can change 50 to any positive number) </br>
 
 ####Module Usage #3: Blocking all Outgoing Traffic with specified destination IP addresses</br>
 `sudo echo "some IP address" >> /proc/outgoing`</br>
@@ -47,7 +47,7 @@ address need to be in IP format, human-readable address such as 'www.google.com'
 unblocking a destination IP address is not enabled </br>
 
 Example: sudo echo "128.119.8.148" >> /proc/outgoing </br>
-(MAX_MSG is currently defined to 50. In line 28: #define MAX_MSG 50, you can change 50 to any positive number) </br>
+(MAX_MSG is currently set to 50. In line 28: #define MAX_MSG 50, you can change 50 to any positive number) </br>
 
 ####Injecting the Module from the Kernel: </br>
 `sudo rmmod Final03`
